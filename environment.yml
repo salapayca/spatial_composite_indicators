@@ -13,3 +13,4 @@ dependencies:
   - pip
   - pip:
       - minisom  # Installed via pip since it's not in Conda
+      -scikit-learn
