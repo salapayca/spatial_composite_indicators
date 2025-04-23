@@ -1,0 +1,17 @@
+name: my_env  # You can rename this environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9  
+  - numpy
+  - pandas
+  - geopandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - minisom
+  - pip
+  - pip:
+      - minisom  # Installed via pip since it's not in Conda
+      -scikit-learn
